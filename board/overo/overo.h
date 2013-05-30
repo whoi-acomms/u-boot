@@ -227,10 +227,10 @@ const omap3_sysinfo sysinfo = {
 	MUX_VAL(CP(UART2_RTS),		(IEN  | PTD | DIS | M4)) /*GPIO_145*/\
 	MUX_VAL(CP(UART2_TX),		(IEN  | PTD | DIS | M4)) /*GPIO_146*/\
 	MUX_VAL(CP(UART2_RX),		(IEN  | PTD | DIS | M4)) /*GPIO_147*/\
-	MUX_VAL(CP(UART1_TX),		(IDIS | PTD | DIS | M0)) /*UART1_TX*/\
+	MUX_VAL(CP(UART1_TX),		(IDIS | PTD | DIS | M4)) /*UART1_TX*/\
 	MUX_VAL(CP(UART1_RTS),		(IEN  | PTU | DIS | M4)) /*GPIO_149*/ \
 	MUX_VAL(CP(UART1_CTS),		(IEN  | PTU | DIS | M4)) /*GPIO_150-MMC3_WP*/\
-	MUX_VAL(CP(UART1_RX),		(IEN  | PTD | DIS | M0)) /*UART1_RX*/\
+	MUX_VAL(CP(UART1_RX),		(IEN  | PTD | DIS | M4)) /*UART1_RX*/\
 	MUX_VAL(CP(MCBSP4_CLKX),	(IEN  | PTD | DIS | M0)) /*McBSP4_CLKX*/\
 	MUX_VAL(CP(MCBSP4_DR),		(IEN  | PTD | DIS | M0)) /*McBSP4_DR*/\
 	MUX_VAL(CP(MCBSP4_DX),		(IEN  | PTD | DIS | M0)) /*McBSP4_DX*/\
@@ -275,7 +275,7 @@ const omap3_sysinfo sysinfo = {
 	MUX_VAL(CP(MCSPI1_SIMO),	(IEN  | PTD | DIS | M0)) /*McSPI1_SIMO */\
 	MUX_VAL(CP(MCSPI1_SOMI),	(IEN  | PTD | DIS | M0)) /*McSPI1_SOMI */\
 	MUX_VAL(CP(MCSPI1_CS0),		(IEN  | PTD | EN  | M0)) /*McSPI1_CS0*/\
-	MUX_VAL(CP(MCSPI1_CS1),		(IDIS | PTD | EN  | M0)) /*McSPI1_CS1*/\
+	MUX_VAL(CP(MCSPI1_CS1),		(IDIS | PTD | EN  | M4)) /*McSPI1_CS1*/\
 	MUX_VAL(CP(MCSPI1_CS2),		(IEN  | PTU | DIS | M4)) /*GPIO_176 */\
 								 /* - LAN_INTR */\
 	MUX_VAL(CP(MCSPI1_CS3),		(IEN  | PTD | DIS | M3)) /*HSUSB2_DATA2*/\
