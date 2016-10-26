@@ -82,10 +82,10 @@ const omap3_sysinfo sysinfo = {
 	MUX_VAL(CP(CSI2_DX1),		(IEN  | PTD | EN  | M4)) /*GPIO_114*/\
 								 /* - PEN_DOWN*/\
  /*Bluetooth*/\
-	MUX_VAL(CP(UART2_CTS),		(IEN  | PTD | DIS | M4)) /*GPIO_144 - LCD_EN*/\
-	MUX_VAL(CP(UART2_RTS),		(IEN  | PTD | DIS | M4)) /*GPIO_145*/\
-	MUX_VAL(CP(UART2_TX),		(IEN  | PTD | DIS | M4)) /*GPIO_146*/\
-	MUX_VAL(CP(UART2_RX),		(IEN  | PTD | DIS | M4)) /*GPIO_147*/\
+	MUX_VAL(CP(UART2_CTS),		(IEN  | PTD | DIS | M0)) /*UART2_CTS*/\
+	MUX_VAL(CP(UART2_RTS),		(IEN  | PTD | DIS | M0)) /*UART2_RTS*/\
+	MUX_VAL(CP(UART2_TX),		(IEN  | PTD | DIS | M0)) /*UART2_TX*/\
+	MUX_VAL(CP(UART2_RX),		(IEN  | PTD | DIS | M0)) /*UART2_RX*/\
 	MUX_VAL(CP(UART1_TX),		(IDIS | PTD | DIS | M0)) /*UART1_TX*/\
 	MUX_VAL(CP(UART1_CTS),		(IEN  | PTU | DIS | M4)) /*GPIO_150-MMC3_WP*/\
 	MUX_VAL(CP(UART1_RX),		(IEN  | PTD | DIS | M0)) /*UART1_RX*/\
